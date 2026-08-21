@@ -3,6 +3,13 @@
 Campus Connect is a full-stack campus platform built to manage technical and academic events.
 It supports separate student and admin experiences with secure authentication, event lifecycle control, and MongoDB-backed persistence.
 
+## Links
+Frontend - https://campus-connect-brown-five.vercel.app/login
+Backend - https://campus-connect-server-one.vercel.app/
+## NOTE - TO ACCESS ADMIN INTERFACE, THE USER CREDENTIALS ARE - 
+## EMAIL - amlanshanker2005@gmail.com
+## PASSWORD - amlan2005amlan
+
 ## Project Overview
 
 Campus Connect enables:
