@@ -5,10 +5,10 @@ It supports separate student and admin experiences with secure authentication, e
 
 ## Links
 Frontend - https://campus-connect-brown-five.vercel.app/login
+
 Backend - https://campus-connect-server-one.vercel.app/
 ## NOTE - TO ACCESS ADMIN INTERFACE, THE USER CREDENTIALS ARE - 
-## EMAIL - amlanshanker2005@gmail.com
-## PASSWORD - amlan2005amlan
+## EMAIL - amlanshanker2005@gmail.com and PASSWORD - amlan2005amlan
 
 ## Project Overview
 
