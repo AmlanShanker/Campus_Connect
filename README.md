@@ -304,7 +304,7 @@ npm run dev
 ```
 
 Backend runs at:
-http://localhost:3000
+https://campus-connect-server-one.vercel.app/
 
 ### 3. Frontend Setup
 
@@ -328,7 +328,7 @@ npm run dev
 ```
 
 Frontend runs at:
-http://localhost:5173
+https://campus-connect-brown-five.vercel.app/login
 
 ## Deployment
 
