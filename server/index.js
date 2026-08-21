@@ -12,6 +12,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (error) {
+    res.status(500).json({
+      message: "Database connection failed",
+      error: error.message,
+    });
+  }
+});
+
 app.get("/", (req, res) => {
   res.json({
     message: "Campus Event Management REST API",
@@ -46,6 +58,8 @@ async function startServer() {
   }
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
 
 module.exports = app;
